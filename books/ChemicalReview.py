@@ -14,10 +14,9 @@ class ChemicalReview(BaseFeedBook):
     page_encoding 		  = "utf-8"
     mastheadfile 		  = "mh_chemicalReview.png"
     coverfile 			  =  'cv_chemicalReview.jpg'
-	network_timeout       = 60
     keep_image			  = True
     fulltext_by_readability = True
-    oldest_article = 7
+    oldest_article = 1
     feeds = [
             (u'Chemical Review','http://pubs.acs.org/action/showFeed?ui=0&mi=0&ai=54p&jc=chreay&type=etoc&feed=rss')
            ]

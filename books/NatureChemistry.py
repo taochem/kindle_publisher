@@ -8,16 +8,15 @@ def getBook():
 
 class NatureChemistry(BaseFeedBook):
     title                 = 'Nature Chemistry'
-    description           = 'Nature's Chemical Sciences Research'
+    description           = 'Nature Chemical Sciences Research'
     language              = 'en'
     feed_encoding 		  = "utf-8"
     page_encoding 		  = "utf-8"
     mastheadfile 		  = "mh_natureChemistry.png"
     coverfile 			  =  'cv_natureChemistry.gif'
-	network_timeout       = 60
     keep_image			  = True
     fulltext_by_readability = True
-    oldest_article = 7
+    oldest_article = 1
     feeds = [
             (u'Nature Chemistry','http://www.nature.com/nchem/current_issue/rss/index.html')
            ]

@@ -8,16 +8,15 @@ def getBook():
 
 class NaturePhysics(BaseFeedBook):
     title                 = 'Nature Physics'
-    description           = 'Nature's Physical Sciences Research'
+    description           = 'Nature Physical Sciences Research'
     language              = 'en'
     feed_encoding 		  = "utf-8"
     page_encoding 		  = "utf-8"
     mastheadfile 		  = "mh_naturePhysics.png"
     coverfile 			  =  'cv_naturePhysics.gif'
-	network_timeout       = 60
     keep_image			  = True
     fulltext_by_readability = True
-    oldest_article = 7
+    oldest_article = 1
     feeds = [
             (u'Nature Physics','http://feeds.nature.com/nphys/rss/current')
            ]
