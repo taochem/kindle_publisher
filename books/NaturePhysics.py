@@ -14,9 +14,10 @@ class NaturePhysics(BaseFeedBook):
     page_encoding 		  = "utf-8"
     mastheadfile 		  = "mh_naturePhysics.png"
     coverfile 			  =  'cv_naturePhysics.gif'
+	network_timeout       = 60
     keep_image			  = True
     fulltext_by_readability = True
-    oldest_article = 1
+    oldest_article = 7
     feeds = [
             (u'Nature Physics','http://feeds.nature.com/nphys/rss/current')
            ]
